@@ -1,0 +1,26 @@
+{
+  "name": "learn-react",
+  "version": "1.0.0",
+  "description": "learning on how to create a package.json file and include dependencies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'Hello world!'",
+    "start": "serve",
+    "build": "esbuild index.js --bundle --outfile=dist/out.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamaukimani/learn-react.git"
+  },
+  "author": "kamau kimani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kamaukimani/learn-react/issues"
+  },
+  "homepage": "https://github.com/kamaukimani/learn-react#readme",
+  "dependencies": {
+    "date-fns": "^2.30.0",
+    "esbuild": "^0.28.0",
+    "serve": "^14.2.6"
+  }
+}
